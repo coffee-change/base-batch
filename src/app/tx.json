@@ -1,0 +1,305 @@
+https: //base-sepolia.blockscout.com/api/v2/addresses/0x5AFD81FaC3BD2B1BA5C9716a140C6bB1D159b79A/token-transfers?type=ERC-20&filter=to
+Server response
+Code	Details
+200	
+Response body
+Download
+{
+    "items": [
+        {
+            "block_hash": "0x896bef64474eecb35919c4bb4a5dd0afd9fe76ee0d42a44d96b09d6d1b33e5d3",
+            "block_number": 32695739,
+            "from": {
+                "ens_domain_name": null,
+                "hash": "0xFaEc9cDC3Ef75713b48f46057B98BA04885e3391",
+                "implementations": [],
+                "is_contract": false,
+                "is_scam": false,
+                "is_verified": false,
+                "metadata": null,
+                "name": null,
+                "private_tags": [],
+                "proxy_type": null,
+                "public_tags": [],
+                "reputation": "ok",
+                "watchlist_names": []
+            },
+            "log_index": 4,
+            "method": "transfer",
+            "timestamp": "2025-10-22T19:02:46.000000Z",
+            "to": {
+                "ens_domain_name": null,
+                "hash": "0x5AFD81FaC3BD2B1BA5C9716a140C6bB1D159b79A",
+                "implementations": [],
+                "is_contract": false,
+                "is_scam": false,
+                "is_verified": false,
+                "metadata": null,
+                "name": null,
+                "private_tags": [],
+                "proxy_type": null,
+                "public_tags": [],
+                "reputation": "ok",
+                "watchlist_names": []
+            },
+            "token": {
+                "address_hash": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+                "circulating_market_cap": null,
+                "decimals": "6",
+                "exchange_rate": null,
+                "holders_count": "320935",
+                "icon_url": null,
+                "name": "USDC",
+                "reputation": "ok",
+                "symbol": "USDC",
+                "total_supply": "67367435408903503",
+                "type": "ERC-20",
+                "volume_24h": null
+            },
+            "token_type": "ERC-20",
+            "total": {
+                "decimals": "6",
+                "value": "10000000"
+            },
+            "transaction_hash": "0xa805f4e163eac835226d36fa976aeb656b9365db68535bd2ad1ba3738ba783cc",
+            "type": "token_transfer"
+        },
+        {
+            "block_hash": "0x3c506fd2266883ea24348f419357347a2100d3fb9e40f841c64ed6e7a086a389",
+            "block_number": 32694316,
+            "from": {
+                "ens_domain_name": null,
+                "hash": "0x0000000000000000000000000000000000000000",
+                "implementations": [],
+                "is_contract": false,
+                "is_scam": false,
+                "is_verified": false,
+                "metadata": {
+                    "tags": [
+                        {
+                            "meta": {},
+                            "name": "Null: 0x000...000",
+                            "ordinal": 10,
+                            "slug": "null-0x000000",
+                            "tagType": "name"
+                        },
+                        {
+                            "meta": {},
+                            "name": "Metamask User",
+                            "ordinal": 0,
+                            "slug": "metamask-user",
+                            "tagType": "generic"
+                        },
+                        {
+                            "meta": {},
+                            "name": "Imtoken User",
+                            "ordinal": 0,
+                            "slug": "imtoken-user",
+                            "tagType": "generic"
+                        },
+                        {
+                            "meta": {},
+                            "name": "Miner",
+                            "ordinal": 0,
+                            "slug": "miner",
+                            "tagType": "generic"
+                        }
+                    ]
+                },
+                "name": null,
+                "private_tags": [],
+                "proxy_type": null,
+                "public_tags": [],
+                "reputation": "ok",
+                "watchlist_names": []
+            },
+            "log_index": 173,
+            "method": "depositETH",
+            "timestamp": "2025-10-22T18:15:20.000000Z",
+            "to": {
+                "ens_domain_name": null,
+                "hash": "0x5AFD81FaC3BD2B1BA5C9716a140C6bB1D159b79A",
+                "implementations": [],
+                "is_contract": false,
+                "is_scam": false,
+                "is_verified": false,
+                "metadata": null,
+                "name": null,
+                "private_tags": [],
+                "proxy_type": null,
+                "public_tags": [],
+                "reputation": "ok",
+                "watchlist_names": []
+            },
+            "token": {
+                "address_hash": "0x73a5bB60b0B0fc35710DDc0ea9c407031E31Bdbb",
+                "circulating_market_cap": null,
+                "decimals": "18",
+                "exchange_rate": null,
+                "holders_count": "208",
+                "icon_url": null,
+                "name": "Aave Base Sepolia WETH",
+                "reputation": "ok",
+                "symbol": "aBasSepWETH",
+                "total_supply": "21404699886109101515",
+                "type": "ERC-20",
+                "volume_24h": null
+            },
+            "token_type": "ERC-20",
+            "total": {
+                "decimals": "18",
+                "value": "10000000000000000"
+            },
+            "transaction_hash": "0xaf574b71d8f3803a942a6b8ae4144e7484319ae18ad56e9733a1134afa6d9c39",
+            "type": "token_minting"
+        },
+        {
+            "block_hash": "0x64ded53abdc0b3302219d0b2749e791704f6e5a6bd027900701e44e933db56c7",
+            "block_number": 24545422,
+            "from": {
+                "ens_domain_name": null,
+                "hash": "0x4281eCF07378Ee595C564a59048801330f3084eE",
+                "implementations": [],
+                "is_contract": false,
+                "is_scam": false,
+                "is_verified": false,
+                "metadata": null,
+                "name": null,
+                "private_tags": [],
+                "proxy_type": null,
+                "public_tags": [],
+                "reputation": "ok",
+                "watchlist_names": []
+            },
+            "log_index": 41,
+            "method": "transfer",
+            "timestamp": "2025-04-17T03:05:32.000000Z",
+            "to": {
+                "ens_domain_name": null,
+                "hash": "0x5AFD81FaC3BD2B1BA5C9716a140C6bB1D159b79A",
+                "implementations": [],
+                "is_contract": false,
+                "is_scam": false,
+                "is_verified": false,
+                "metadata": null,
+                "name": null,
+                "private_tags": [],
+                "proxy_type": null,
+                "public_tags": [],
+                "reputation": "ok",
+                "watchlist_names": []
+            },
+            "token": {
+                "address_hash": "0xE4aB69C077896252FAFBD49EFD26B5D171A32410",
+                "circulating_market_cap": null,
+                "decimals": "18",
+                "exchange_rate": null,
+                "holders_count": "45902",
+                "icon_url": null,
+                "name": "ChainLink Token",
+                "reputation": "ok",
+                "symbol": "LINK",
+                "total_supply": "10011511704507607146457673",
+                "type": "ERC-20",
+                "volume_24h": null
+            },
+            "token_type": "ERC-20",
+            "total": {
+                "decimals": "18",
+                "value": "25000000000000000000"
+            },
+            "transaction_hash": "0x18f7147bc969fc9535abaecf4a677c93e7c488478ca1b78674dbeeae3e876176",
+            "type": "token_transfer"
+        },
+        {
+            "block_hash": "0x4709cfba825a689882874e8cfb5ba90141717311d58acba90b82f0dfbc43cff1",
+            "block_number": 23551045,
+            "from": {
+                "ens_domain_name": null,
+                "hash": "0x0000000000000000000000000000000000000000",
+                "implementations": [],
+                "is_contract": false,
+                "is_scam": false,
+                "is_verified": false,
+                "metadata": {
+                    "tags": [
+                        {
+                            "meta": {},
+                            "name": "Null: 0x000...000",
+                            "ordinal": 10,
+                            "slug": "null-0x000000",
+                            "tagType": "name"
+                        },
+                        {
+                            "meta": {},
+                            "name": "Metamask User",
+                            "ordinal": 0,
+                            "slug": "metamask-user",
+                            "tagType": "generic"
+                        },
+                        {
+                            "meta": {},
+                            "name": "Imtoken User",
+                            "ordinal": 0,
+                            "slug": "imtoken-user",
+                            "tagType": "generic"
+                        },
+                        {
+                            "meta": {},
+                            "name": "Miner",
+                            "ordinal": 0,
+                            "slug": "miner",
+                            "tagType": "generic"
+                        }
+                    ]
+                },
+                "name": null,
+                "private_tags": [],
+                "proxy_type": null,
+                "public_tags": [],
+                "reputation": "ok",
+                "watchlist_names": []
+            },
+            "log_index": 32,
+            "method": "mint",
+            "timestamp": "2025-03-25T02:39:38.000000Z",
+            "to": {
+                "ens_domain_name": null,
+                "hash": "0x5AFD81FaC3BD2B1BA5C9716a140C6bB1D159b79A",
+                "implementations": [],
+                "is_contract": false,
+                "is_scam": false,
+                "is_verified": false,
+                "metadata": null,
+                "name": null,
+                "private_tags": [],
+                "proxy_type": null,
+                "public_tags": [],
+                "reputation": "ok",
+                "watchlist_names": []
+            },
+            "token": {
+                "address_hash": "0x768cd92B3ED6c0554A453f1e240ab5D1a00f543a",
+                "circulating_market_cap": null,
+                "decimals": "18",
+                "exchange_rate": null,
+                "holders_count": "23",
+                "icon_url": null,
+                "name": "USDC",
+                "reputation": "ok",
+                "symbol": "USDC",
+                "total_supply": "21000000000000000000000",
+                "type": "ERC-20",
+                "volume_24h": null
+            },
+            "token_type": "ERC-20",
+            "total": {
+                "decimals": "18",
+                "value": "1000000000000000000000"
+            },
+            "transaction_hash": "0x5979984caaaa4669fe423ea24a9b9818697927148f2bee37ed449f669ea186fa",
+            "type": "token_minting"
+        }
+    ],
+    "next_page_params": null
+}
