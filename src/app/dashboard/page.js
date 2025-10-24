@@ -112,28 +112,28 @@ export default function Dashboard() {
   }
 
   return (
-    <div className="min-h-screen bg-[#2D2016] relative overflow-hidden">
+    <div className="min-h-screen bg-[#1C1410] relative overflow-hidden">
       {/* Animated Background Elements */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-[#735557] rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob" />
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-[#735557] rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000" />
-        <div className="absolute top-1/2 left-1/2 w-80 h-80 bg-[#735557] rounded-full mix-blend-multiply filter blur-3xl opacity-15 animate-blob animation-delay-4000" />
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute -top-20 sm:-top-40 -right-20 sm:-right-40 w-64 sm:w-96 h-64 sm:h-96 bg-[#CD7F32] rounded-full mix-blend-multiply filter blur-3xl opacity-25 animate-blob" />
+        <div className="absolute -bottom-20 sm:-bottom-40 -left-20 sm:-left-40 w-64 sm:w-96 h-64 sm:h-96 bg-[#CD7F32] rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000" />
+        <div className="absolute top-1/2 left-1/2 w-48 sm:w-80 h-48 sm:h-80 bg-[#1C1410] rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000" />
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className="relative z-10 max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 py-6 sm:py-10 md:py-12">
         {/* Header */}
-        <div className="mb-8 animate-fade-in-up">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#735557]/20 backdrop-blur-md border border-[#735557]/40 mb-4">
-            <div className="w-2 h-2 rounded-full bg-[#D9D9D9] animate-pulse" />
-            <span className="text-xs sm:text-sm font-medium text-[#D9D9D9]">Live Dashboard</span>
+        <div className="mb-8 sm:mb-10 md:mb-12 animate-fade-in-up">
+          <div className="inline-flex items-center gap-2 sm:gap-3 px-4 sm:px-5 py-2 sm:py-2.5 rounded-full bg-gradient-to-r from-[#CD7F32]/25 to-[#1C1410]/15 backdrop-blur-md border border-[#CD7F32]/30 mb-4 sm:mb-6 shadow-lg shadow-[#CD7F32]/10">
+            <div className="w-2 h-2 rounded-full bg-[#D9D9D9] animate-pulse shadow-lg shadow-[#D9D9D9]/50" />
+            <span className="text-xs sm:text-sm font-semibold text-[#D9D9D9] tracking-wide">Live Dashboard</span>
           </div>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-[#D9D9D9] mb-2">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white mb-3 sm:mb-4 tracking-tight drop-shadow-lg">
             Your Dashboard
           </h1>
-          <p className="text-lg text-[#D9D9D9]/70">Track your spending and manage your roundup deposits</p>
+          <p className="text-base sm:text-lg md:text-xl text-[#FFFFF0]/80 font-normal tracking-tight">Track your spending and manage your roundup deposits</p>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-10">
           <div className="lg:col-span-2 animate-fade-in-up animation-delay-200">
             <SpendingTracker
               transactions={transactions}
